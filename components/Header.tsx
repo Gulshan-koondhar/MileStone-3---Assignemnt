@@ -41,7 +41,7 @@ const Header = () => {
           </div>
           {isOpen && (
             <div className="lg:hidden">
-              <NavBar class="bg-[#F4F4F5] p-3 absolute text-center space-y-4 list-none top-16 right-0" />
+              <NavBar class="bg-[#F4F4F5] p-3 absolute text-center flex flex-col space-y-4 list-none top-16 right-0" />
             </div>
           )}
           <div className="lg:hidden" onClick={handleMenu}>
