@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 interface Iprops {
   class: string;
@@ -6,10 +7,10 @@ interface Iprops {
 const NavBar = (props: Iprops) => {
   return (
     <div className={props.class}>
-      <li>Home</li>
-      <li>About</li>
-      <li>Blog</li>
-      <li>Contact Us</li>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
+      <Link href="/blog">Blog</Link>
+      <Link href="/contact">Contact US</Link>
     </div>
   );
 };

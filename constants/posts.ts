@@ -1,45 +1,50 @@
-export const posts = [{
-    title:"The Impact of Technology on the Workplace: How Technology is Changing",
-    category : "Technology",
-    authorName : "Tracey Wilson",
-    Date: "August 20, 2022",
-    blogImage : "/Rectangle 38.png", 
-    AImage : "/Image.png",
-    slug: "impact-of-technology",
-    content: "Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect."
-
-},
-{
-    title:"The Impact of Technology on the Workplace: How Technology is Changing",
-    category : "Technology",
-    authorName : "Tracey Wilson",
-    Date: "August 20, 2022",
-    blogImage : "/Rectangle 38.png", 
-    AImage : "/Image.png",
-    slug: "impact-of-technology",
-    content: "Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect."
-
-
-},{
-    title:"The Impact of Technology on the Workplace: How Technology is Changing",
-    category : "Technology",
-    authorName : "Tracey Wilson",
-    Date: "August 20, 2022",
-    blogImage : "/Rectangle 38.png", 
-    AImage : "/Image.png",
-    slug: "impact-of-technology",
-    content: "Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect."
-
-
-},{
-    title:"The Impact of Technology on the Workplace: How Technology is Changing",
-    category : "Technology",
-    authorName : "Tracey Wilson",
-    Date: "August 20, 2022",
-    blogImage : "/Rectangle 38.png", 
-    AImage : "/Image.png",
-    slug: "impact-of-technology",
-    content: "Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect."
-
-
-}]
+export const posts = [  {
+    authorName: "John Doe",
+    authorImage: "/Image.png",
+    blogImage: "/web.webp",
+    blogContent: "This is a blog post about web development and its best practices.",
+    blogDate: "2024-11-01",
+    blogTitle: "Web Development 101",
+    blogCategory: "Development",
+    slug: "web-development-101"
+  },
+  {
+    authorName: "Jane Smith",
+    authorImage: "/Image.png",
+    blogImage: "/travel.jpeg",
+    blogContent: "Exploring the best places to visit for an unforgettable travel experience.",
+    blogDate: "2024-11-02",
+    blogTitle: "Top 10 Travel Destinations",
+    blogCategory: "Travel",
+    slug: "top-10-travel-destinations"
+  },
+  {
+    authorName: "Alice Johnson",
+    authorImage: "/Image.png",
+    blogImage: "/health.png",
+    blogContent: "A comprehensive guide to healthy living and nutrition tips.",
+    blogDate: "2024-11-03",
+    blogTitle: "Healthy Living Guide",
+    blogCategory: "Health",
+    slug: "healthy-living-guide"
+  },
+  {
+    authorName: "Mike Williams",
+    authorImage: "/Image.png",
+    blogImage: "/business.jpeg",
+    blogContent: "An in-depth look at modern business strategies and entrepreneurship.",
+    blogDate: "2024-11-04",
+    blogTitle: "Modern Business Strategies",
+    blogCategory: "Business",
+    slug: "modern-business-strategies"
+  },
+  {
+    authorName: "Emma Brown",
+    authorImage: "/Image.png",
+    blogImage: "/tech.jpeg",
+    blogContent: "The future of technology and innovations that are shaping the world.",
+    blogDate: "2024-11-05",
+    blogTitle: "Future of Technology",
+    blogCategory: "Technology",
+    slug: "future-of-technology"
+  }]
