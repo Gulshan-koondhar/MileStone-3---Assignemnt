@@ -3,8 +3,13 @@ import { posts } from "@/constants/posts";
 import Image from "next/image";
 import Comment from "@/components/Comment";
 
-const page = ({ params }: { params: { blogTitle: string } }) => {
-  const post = posts.find((p) => p.slug == params.blogTitle);
+export default async function page({
+  params,
+}: {
+  params: Promise<{ blogTitle: string }>;
+}) {
+  const BlogTitle = (await params).blogTitle;
+  const post = posts.find((p) => p.slug == BlogTitle);
   if (!post) {
     <div>Post Not Found</div>;
   } else {
@@ -36,5 +41,4 @@ const page = ({ params }: { params: { blogTitle: string } }) => {
       </div>
     );
   }
-};
-export default page;
+}
