@@ -4,7 +4,7 @@ import Logo from "@/public/Union.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F6F6F7]">
+    <footer className="bg-black text-white">
       <div className="max-w-screen-xl mx-auto p-4 md:p-10">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col justify-between gap-8 md:flex-row">
@@ -49,10 +49,10 @@ const Footer = () => {
               </div>
             </div>
             <div className="bg-white p-6 rounded flex flex-col gap-4">
-              <h1 className="font-semibold text-xl text-center ">
+              <h1 className="font-semibold text-xl text-center text-black">
                 Weekly Letter
               </h1>
-              <p className="text-center text-sm">
+              <p className="text-center text-sm text-black">
                 Get blog articles and offers via email
               </p>
               <form action="" className="flex flex-col gap-2">
@@ -73,7 +73,13 @@ const Footer = () => {
             <hr />
             <div className="flex justify-between flex-col md:flex-row gap-4 items-center">
               <div className="flex items-center gap-2">
-                <Image src={Logo} alt="" width={36} height={36} />
+                <Image
+                  src={Logo}
+                  alt=""
+                  width={36}
+                  height={36}
+                  className="bg-white rounded-full"
+                />
                 <div>
                   <h1 className="font-normal text-lg">
                     Meta<span className="font-bold">Blog</span>

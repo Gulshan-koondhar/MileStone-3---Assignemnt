@@ -1,3 +1,5 @@
+
+
 export const posts = [  {
     authorName: "John Doe",
     authorImage: "/Image.png",
@@ -6,7 +8,9 @@ export const posts = [  {
     blogDate: "2024-11-01",
     blogTitle: "Web Development 101",
     blogCategory: "Development",
-    slug: "web-development-101"
+    slug: "web-development-101",
+    featured: false,
+    priority: "high"
   },
   {
     authorName: "Jane Smith",
@@ -16,7 +20,9 @@ export const posts = [  {
     blogDate: "2024-11-02",
     blogTitle: "Top 10 Travel Destinations",
     blogCategory: "Travel",
-    slug: "top-10-travel-destinations"
+    slug: "top-10-travel-destinations",
+    featured: false,
+    priority: "low"
   },
   {
     authorName: "Alice Johnson",
@@ -26,7 +32,9 @@ export const posts = [  {
     blogDate: "2024-11-03",
     blogTitle: "Healthy Living Guide",
     blogCategory: "Health",
-    slug: "healthy-living-guide"
+    slug: "healthy-living-guide",
+    featured: false,
+    priority: "high"
   },
   {
     authorName: "Mike Williams",
@@ -36,7 +44,9 @@ export const posts = [  {
     blogDate: "2024-11-04",
     blogTitle: "Modern Business Strategies",
     blogCategory: "Business",
-    slug: "modern-business-strategies"
+    slug: "modern-business-strategies",
+    featured: true,
+    priority: "low"
   },
   {
     authorName: "Emma Brown",
@@ -46,5 +56,7 @@ export const posts = [  {
     blogDate: "2024-11-05",
     blogTitle: "Future of Technology",
     blogCategory: "Technology",
-    slug: "future-of-technology"
+    slug: "future-of-technology",
+    featured: true,
+    priority: "high"
   }]
