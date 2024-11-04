@@ -22,7 +22,7 @@ const Featured = () => {
                   height={100}
                   className="w-full h-full rounded-lg"
                 />
-                <div className="absolute bg-white top-24 border p-2 -left-3 px-8 sm:left-20 sm:top-52 lg:left-60 xl:left-64 xl:top-72 rounded-md">
+                <div className="absolute bg-white text-black top-24 border p-2 -left-3 px-8 sm:left-20 sm:top-52 lg:left-60 xl:left-64 xl:top-72 rounded-md">
                   <h1 className="text-[#4B6BFB] text-sm font-light bg-gray-200 w-28 rounded text-center px-3 py-1 ">
                     {data.blogCategory}
                   </h1>
